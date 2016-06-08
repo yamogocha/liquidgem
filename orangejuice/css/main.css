@@ -1,0 +1,113 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:-webkit-linear-gradient(top, #ffffff 0%,#f1f1f1 100%);
+	font-family:'Poppins', sans-serif;
+}
+
+nav{
+	background-color:#FE7E00;
+	height:80px;
+}
+
+nav .logo{
+	display: inline-block;
+    padding:23px;
+    margin:0 35px;
+    color:white;
+    font-size:22px;
+}
+
+nav img{
+	vertical-align:middle;
+}
+
+nav span{
+	font-weight:600;
+}
+
+nav ul{
+	float:right;
+	padding:15px 15px;
+	font-size:14px;
+	margin-top:20px;
+	font-weight:bold;
+}
+
+nav ul li{
+	display: inline-block;
+    padding: 0 15px;
+}
+
+nav ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+header{
+	height:115px;
+}
+
+header input{
+	padding: 15px 70px 15px 15px;
+    background-color: #EFEFED;
+    color: #B5B5B5;
+    font-size: 10px;
+    border: none;
+    margin: 8px 30px 30px;
+    float: right;
+}
+
+header span{
+	float: right;
+    margin: 15px -210px;
+}
+
+section{
+	text-align:center;
+	height: 380px;
+}
+
+section h2{
+	font-weight:300;
+	color:#D2864D;
+	float:right;
+	margin:0 30px 0 0;
+	font-size:32px;
+}
+
+section .orange{
+	font-weight:600;
+}
+
+section .wa{
+	font-weight:600;
+	color:#A1CECC;
+}
+
+section .btn{
+	float:right;
+	margin:-115px 30px;
+}
+
+section a{
+	text-decoration:none;
+	color:white;
+	background-color:#A1DDDB;
+	font-size:15px;
+	padding:15px 40px;
+	margin: 0 10px;
+}
+
+.vcs{
+	background-color:#FD7D00;
+	padding:15px 70px;
+}
+
+footer{
+	height:80px;
+	background-color:#7ACCC8;
+}
